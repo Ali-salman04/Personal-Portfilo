@@ -43,23 +43,23 @@ const Projects: React.FC = () => {
       featured: false
     },
     {
-      title: "Live-X",
-      description: "A point-of-sale system for restaurants with order management, inventory tracking, and sales analytics. Includes mobile app for staff.",
-      image: "https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tech: ["React Native", "Node.js", "MongoDB", "Express"],
+      title: "Ru-Novel",
+      description: "Ru-Novel is an online platform where users can read, write, and share novels, join forums, and access premium content through membership.",
+      image: "/public/ru-nuvel.png",
+      tech: ["React.js", "Cloudflare", "Stripe", ],
       github: "https://github.com",
-      live: "https://example.com", 
+      live: "https://ru-novel-i9jv.vercel.app/login", 
       featured: false
     },
-    {
-      title: "Learning Management System",
-      description: "A comprehensive LMS with course creation, progress tracking, video streaming, and interactive quizzes. Supports multiple user roles and permissions.",
-      image: "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=600",
-      tech: ["Angular", "Spring Boot", "MySQL", "AWS S3"],
-      github: "https://github.com/Ali-salman04/Final-Year-Project-2024-2025-",
-      live: "https://example.com",
-      featured: false
-    }
+    // {
+    //   title: "Learning Management System",
+    //   description: "A comprehensive LMS with course creation, progress tracking, video streaming, and interactive quizzes. Supports multiple user roles and permissions.",
+    //   image: "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&w=600",
+    //   tech: ["Angular", "Spring Boot", "MySQL", "AWS S3"],
+    //   github: "https://github.com/Ali-salman04/Final-Year-Project-2024-2025-",
+    //   live: "https://example.com",
+    //   featured: false
+    // }
   ];
 
   const featuredProjects = projects.filter(project => project.featured);
